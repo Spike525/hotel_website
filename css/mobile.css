@@ -19,8 +19,18 @@
     border-bottom: none;
 }
 
-/* Home-info */
+#showcase {
+    height: 100%;
+}
 
+#showcase .showcase-content {
+    padding: 10% 0;
+}
+
+/* Home-info */
+#home-info {
+    height: 100%;
+}
 #home-info .info-img {
     display: none;
 } 
@@ -37,5 +47,41 @@
 
 .box {
     float: none;
+    width: 100%;
+}
+
+/* About */
+
+.l-heading {
+    line-height: 1.2;
+}
+#testimonials {
+    padding-top: 50px;
+}
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+/* Contacts */
+
+#contact-info .box {
+    border-bottom: 1px dotted #444;
+    padding: 25px;
+}
+#contact-info .box:last-child {
+    border-bottom: none;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+#contact-form form button {
     width: 100%;
 }
